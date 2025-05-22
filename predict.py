@@ -53,8 +53,9 @@ def train_and_evaluate(sheet_name):
 
     return model
 
-# 모델 학습 (1호기 기준)
+# 모델 학습 
 model1 = train_and_evaluate('1호기')
+model2 = train_and_evaluate('2호기')
 
 # 예측 샘플 입력
 sample_input = pd.DataFrame([{
@@ -68,5 +69,10 @@ sample_input = pd.DataFrame([{
 # 예측 수행
 predicted = model1.predict(sample_input)[0]
 print("1호기 예측 결과:")
+print(f"  RH_BOWL_T 예측값: {predicted[0]:.2f}")
+print(f"  MS_TEMP_T 예측값: {predicted[1]:.2f}")
+
+predicted = model2.predict(sample_input)[0]
+print("2호기 예측 결과:")
 print(f"  RH_BOWL_T 예측값: {predicted[0]:.2f}")
 print(f"  MS_TEMP_T 예측값: {predicted[1]:.2f}")
