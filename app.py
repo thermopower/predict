@@ -22,11 +22,11 @@ def main():
     with st.sidebar:
         st.header("입력 가이드")
         st.markdown("""
-        - AMBIENT_TEMP_D: 주변 온도(시작)
-        - MS_TEMP_D: MS 온도(시작)
-        - RH_BOWL_D: RH 보울 온도(시작)
-        - TARGET_T_MIN: 목표 시간(분)
-        - AMBIENT_TEMP_T: 주변 온도(예측 시점)
+        - AMBIENT_TEMP_D: 외기 온도(계통분리시점)
+        - MS_TEMP_D: MS 온도(계통분리시점)
+        - RH_BOWL_D: RH 보울 온도(계통분리시점)
+        - TARGET_T_MIN: 소요 시간(계통분리부터 점화까지, 분 단위)
+        - AMBIENT_TEMP_T: 외기 온도(점화 시점)
         """)
 
     # 입력 폼
