@@ -26,6 +26,7 @@ def _resolve_feature_order(trained_model) -> list:
     except Exception:
         pass
     return FEATURE_COLS
+
 # 페이지 설정
 st.set_page_config(page_title="터빈 냉각 온도 예측 시스템", page_icon="🌡️", layout="wide")
 
@@ -51,7 +52,6 @@ st.markdown(
     """,
     help="MS/RH 초기 온도는 냉각 시작 시점의 실제 측정값입니다.",
 )
-
 
 @st.cache_resource(show_spinner=False)
 def load_model(path: str):
