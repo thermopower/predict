@@ -28,8 +28,6 @@ def _resolve_feature_order(trained_model) -> list:
         pass
     return FEATURE_COLS
 
-"""(롤백) 참고곡선 관련 유틸 제거"""
-
 # RH BOWL 지수 스무딩 알파(외부 파일 없이 코드에 내장)
 RH_BOWL_SMOOTHING_ALPHA: float = 0.75
 
