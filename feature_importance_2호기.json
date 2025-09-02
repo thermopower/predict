@@ -1,0 +1,35 @@
+{
+  "ms_temp": {
+    "start_ms_temp": 0.288283109664917,
+    "start_rh_bowl": 0.21109570562839508,
+    "elapsed_hours": 2.3784780502319336,
+    "ambient_temp": 0.14154082536697388,
+    "ambient_temp_squared": 0.08874937146902084,
+    "start_temp_ambient_interaction": 0.20031417906284332,
+    "time_temp_interaction": 0.8011896014213562,
+    "sqrt_elapsed_hours": 0.818388819694519,
+    "log_time": 0.6915693283081055
+  },
+  "rh_bowl": {
+    "start_ms_temp": 0.2135402113199234,
+    "start_rh_bowl": 0.3135702908039093,
+    "elapsed_hours": 2.511122703552246,
+    "ambient_temp": 0.12048549205064774,
+    "ambient_temp_squared": 0.08316793292760849,
+    "start_temp_ambient_interaction": 0.1707209199666977,
+    "time_temp_interaction": 0.9136868119239807,
+    "sqrt_elapsed_hours": 1.7422219514846802,
+    "log_time": 0.04983155056834221
+  },
+  "average": {
+    "time_temp_interaction": 0.8574382066726685,
+    "start_temp_ambient_interaction": 0.1855175495147705,
+    "log_time": 0.37070043943822384,
+    "ambient_temp": 0.1310131587088108,
+    "sqrt_elapsed_hours": 1.2803053855895996,
+    "start_rh_bowl": 0.2623329982161522,
+    "start_ms_temp": 0.2509116604924202,
+    "elapsed_hours": 2.44480037689209,
+    "ambient_temp_squared": 0.08595865219831467
+  }
+}
